@@ -1,9 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://caleb-james-smith.github.io/hugo-quick-start/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
 
+[params]
+  featured_image = 'images/gohugo-default-sample-hero-image.jpg'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
